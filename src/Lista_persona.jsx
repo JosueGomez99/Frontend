@@ -149,7 +149,7 @@ export const Lista = () => {
     return (
         <>
             <div className="container">
-                <h1>Lista de tareas</h1>
+                <h1>Lista de Personas</h1>
                 <form onSubmit={formSubmit}>
                     <div className="form-floating mb-3">
                         <input className="form-control" value={dataForm.nombre}  name="name" onChange={formChange} />
